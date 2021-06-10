@@ -1,0 +1,15 @@
+@import '../utilities/colors';
+.btn-dark {
+  background: $brown;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 6rem;
+}
+.btn-white {
+  background: white;
+  color: black;
+  border-radius: 50px;
+  border: none;
+  padding: 1rem 6rem;
+}
