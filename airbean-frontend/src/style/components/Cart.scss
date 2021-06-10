@@ -151,9 +151,11 @@ footer {
   margin-bottom: auto;
 }
 .cart-show {
-  transform: translateX(0vh);
+  transform: translateY(0vh);
+  transition: transform 1s ease;
 }
 
 .cart-hide {
-  transform: translateX(-100vh);
+  transform: translateY(-100vh);
+  transition: transform 1s ease;
 }
